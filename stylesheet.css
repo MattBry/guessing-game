@@ -1,0 +1,25 @@
+div {
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    border:2px dashed blue;
+
+    height:500px;
+    width:500px;
+
+    margin:auto;
+    text-align:center;
+}
+
+h1 {
+	font-family:Courier;
+
+}
+
+h2 {
+	font-family:Courier;
+
+}
