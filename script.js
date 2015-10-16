@@ -121,17 +121,14 @@ function directionTaker(num) {
 		theGuess = $('.box').val();
 		validity = validator(theGuess);
 		if (validity === false) {
-			alert("this should halt function");
 			return false;
 		}
 		directional = directionTaker(theGuess);
 		thermal = temperatureTaker(theGuess);
 		if (parseInt(theGuess) == magicNumber) {
-			alert("correct");
 			succeed();
 		}
 		else {
-			alert("incorrect");
 		$('.bubbles').children().eq(guessCount).addClass(thermal);
 		$('.history-number').eq(guessCount).text(theGuess);
 		$('.history-thermal').eq(guessCount).text(thermal + " " + directional);

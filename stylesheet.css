@@ -37,12 +37,15 @@ h1 {
 .bubble {
     height: 100px;
     width: 100px;
+
     background-color: #B2B2B2;
     border-radius: 100%;
     text-align: center;
+
     margin-bottom: 10px;
+    margin-left: 20px;
     display: inline-block;
-    margin-right: 20px;
+
     box-shadow: 1px 1px 5px #888888;
 }
 
@@ -53,27 +56,19 @@ h1 {
     margin-left: 10px;
 }
 
-.button {
-    height: 100px;
-    width: 100px;
-    background-color: #B2B2B2;
-    border-radius: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-    display: inline-block;
-    margin-left: 20px;
+.button-text {
     font-family: sans-serif;
     color: white;
     font-size: 30px;
-
-    box-shadow: 1px 1px 5px #888888;
 }
+
 .guess {
 }
 .fail {
 }
 .reset {
 }
+
 .status {
     background-color: white;
     box-shadow: none;
@@ -150,10 +145,12 @@ input {
     background-color: #FFFFFF;
     border-radius: 100%;
     border: 6px green solid;
+
     text-align: center;
+
     margin-bottom: 10px;
+    margin-left: 20px;
     display: inline-block;
-    margin-right: 20px;
     
     box-shadow: 1px 1px 5px #888888;
 }
@@ -178,8 +175,12 @@ input {
     background-color: #FFFFFF;
     border-radius: 100%;
     border: 6px maroon solid;
+
     text-align: center;
+
     margin-bottom: 10px;
+    margin-left: 20px;
+    display: inline-block;
     
     box-shadow: 1px 1px 5px #888888;
 }
@@ -203,10 +204,12 @@ input {
     width: 100px;
     background-color: #00FFFF;
     border-radius: 100%;
+
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 20px;
     display: inline-block;
-    margin-right: 20px;
+    
     box-shadow: 1px 1px 5px #888888;
 }
 
@@ -215,10 +218,12 @@ input {
     width: 100px;
     background-color: #0000FF;
     border-radius: 100%;
+
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 20px;
     display: inline-block;
-    margin-right: 20px;
+    
     box-shadow: 1px 1px 5px #888888;
 }
 
@@ -227,10 +232,12 @@ input {
     width: 100px;
     background-color: #6666FF;
     border-radius: 100%;
+
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 20px;
     display: inline-block;
-    margin-right: 20px;
+    
     box-shadow: 1px 1px 5px #888888;
 }
 
@@ -239,10 +246,12 @@ input {
     width: 100px;
     background-color: #660066;
     border-radius: 100%;
+
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 20px;
     display: inline-block;
-    margin-right: 20px;
+    
     box-shadow: 1px 1px 5px #888888;
 }
 
@@ -251,10 +260,12 @@ input {
     width: 100px;
     background-color: #FFCC00;
     border-radius: 100%;
+
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 20px;
     display: inline-block;
-    margin-right: 20px;
+    
     box-shadow: 1px 1px 5px #888888;
 }
 
@@ -263,10 +274,12 @@ input {
     width: 100px;
     background-color: #FF6600;
     border-radius: 100%;
+
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 20px;
     display: inline-block;
-    margin-right: 20px;
+
     box-shadow: 1px 1px 5px #888888;
 }
 
@@ -275,10 +288,12 @@ input {
     width: 100px;
     background-color: #FF0000;
     border-radius: 100%;
+
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 20px;
     display: inline-block;
-    margin-right: 20px;
+    
     box-shadow: 1px 1px 5px #888888;
 }
 
